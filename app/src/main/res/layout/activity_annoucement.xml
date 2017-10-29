@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wy.tuitionmanager.Annoucement">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/annoucement"
+        android:minLines="8"
+        android:maxLines="10"
+        android:hint="Type your annoucement here"
+        android:textAlignment="viewStart"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/postAnnouncement"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/annoucement"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Publish"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="postAnnoucement"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/About"
+            android:title="About" />
+        <item
+            android:id="@+id/Team"
+            android:title="Team" />
+        <item
+            android:id="@+id/Course"
+            android:title="Course" />
+        <item
+            android:id="@+id/Schedule"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/Profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/Contact"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out" />
+
+    </group>
+
+
+
+</menu>
